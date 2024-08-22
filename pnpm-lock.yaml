@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@makeswift/runtime':
-        specifier: 0.0.0-snapshot-20240822200927
-        version: 0.0.0-snapshot-20240822200927(@types/react-dom@18.3.0)(@types/react@18.2.60)(next@14.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 0.0.0-snapshot-20240822222546
+        version: 0.0.0-snapshot-20240822222546(@types/react-dom@18.3.0)(@types/react@18.2.60)(next@14.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-accordion':
         specifier: ^1.1.2
         version: 1.2.0(@types/react-dom@18.3.0)(@types/react@18.2.60)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -228,19 +228,19 @@ packages:
   '@juggle/resize-observer@3.4.0':
     resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
 
-  '@makeswift/controls@0.0.0-snapshot-20240822200927':
-    resolution: {integrity: sha512-WNoglapeTbvJAHfi/vRiaJlUVM+xsf1KKToMDMKX/2Gna3iWEfuorwzB6vNtMJt2Hemw0ty7Da1EcD2hMM8XEQ==}
+  '@makeswift/controls@0.0.0-snapshot-20240822222546':
+    resolution: {integrity: sha512-pcDNZoa2S60K4lQF79NvwzV1MTc0NP5ZsrUJtgFiXnMUA6FJ2s+AlK2R41XlUfcvtgwq3gl0zyfN4GOI1P50lQ==}
 
   '@makeswift/next-plugin@0.3.0':
     resolution: {integrity: sha512-pGe0D6KrVxZcyaM8hFCIK806yNV6YJtRcjjD+2Wpn5qkFStIMTlACkGRVHVLftFyfi8/E3lGkbR05Jo3aTecwQ==}
     peerDependencies:
       next: ^13.4.0 || ^14.0.0
 
-  '@makeswift/prop-controllers@0.0.0-snapshot-20240822200927':
-    resolution: {integrity: sha512-r0JLKdk1s4M73DMZlxp0SwH85Raugg4gzml+Byn5KOfNXfExdOi7IbGwb4x85f6uHO+mBg1TXumSSfstt9hd1g==}
+  '@makeswift/prop-controllers@0.0.0-snapshot-20240822222546':
+    resolution: {integrity: sha512-GQW+m/iqmtxFfjbDH7z79Jy5vcU/g+fgrBQMiv6XNZPNUFz8uWhMkvJmBPa7452R4PN7ZDkUUI46Ylo8MbxKag==}
 
-  '@makeswift/runtime@0.0.0-snapshot-20240822200927':
-    resolution: {integrity: sha512-kqaHm4mhoy7hKHqzwYjCQXT/NnZYrsICuDKZaGaF08FDwRZzQWX3AzoDQq1jA7tEV9reC+kFnxRlIhSVfPvHWQ==}
+  '@makeswift/runtime@0.0.0-snapshot-20240822222546':
+    resolution: {integrity: sha512-TvjfnPgc1Bpoj1ZQLlB2qBQ/vSgnG1bvxLH8wLUXH9cjcmm0mWPPGDB+/D7xMPuM2PUPPkqFevPNkVyuWOfNCg==}
     peerDependencies:
       '@types/react': ^18.0.0
       '@types/react-dom': ^18.0.0
@@ -2549,7 +2549,7 @@ snapshots:
 
   '@juggle/resize-observer@3.4.0': {}
 
-  '@makeswift/controls@0.0.0-snapshot-20240822200927':
+  '@makeswift/controls@0.0.0-snapshot-20240822222546':
     dependencies:
       color: 3.2.1
       css-box-model: 1.2.1
@@ -2565,13 +2565,13 @@ snapshots:
       next: 14.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       semver: 7.6.3
 
-  '@makeswift/prop-controllers@0.0.0-snapshot-20240822200927':
+  '@makeswift/prop-controllers@0.0.0-snapshot-20240822222546':
     dependencies:
-      '@makeswift/controls': 0.0.0-snapshot-20240822200927
+      '@makeswift/controls': 0.0.0-snapshot-20240822222546
       ts-pattern: 5.3.1
       zod: 3.23.8
 
-  '@makeswift/runtime@0.0.0-snapshot-20240822200927(@types/react-dom@18.3.0)(@types/react@18.2.60)(next@14.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@makeswift/runtime@0.0.0-snapshot-20240822222546(@types/react-dom@18.3.0)(@types/react@18.2.60)(next@14.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@emotion/cache': 11.13.1
       '@emotion/css': 11.13.0
@@ -2579,9 +2579,9 @@ snapshots:
       '@emotion/server': 11.11.0(@emotion/css@11.13.0)
       '@emotion/sheet': 1.4.0
       '@emotion/utils': 1.4.0
-      '@makeswift/controls': 0.0.0-snapshot-20240822200927
+      '@makeswift/controls': 0.0.0-snapshot-20240822222546
       '@makeswift/next-plugin': 0.3.0(next@14.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@makeswift/prop-controllers': 0.0.0-snapshot-20240822200927
+      '@makeswift/prop-controllers': 0.0.0-snapshot-20240822222546
       '@popmotion/popcorn': 0.4.4
       '@types/is-hotkey': 0.1.10
       '@types/use-sync-external-store': 0.0.3
